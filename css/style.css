@@ -1,9 +1,3 @@
-/*!
- * Bootstrap Grid v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
@@ -18,10 +12,15 @@ html {
 body {
   margin: 0;
   text-align: center;
-  background: #fff;
+  background: black;
   color: #afa6a6;
   font-size: 16px;
   line-height: 1.7;
+}
+
+.navigation {
+  padding: 0%;
+  margin: 0%;
 }
 
 .splash {
@@ -34,10 +33,34 @@ body {
 }
 
 .splash-inner {
-  position: absolute;
+  text-align: absolute;
   width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7RUNLRTtBRENEO0VBQ0csc0JBQXNCO0VBQ3RCLDZCQUE2QjtBQ0NqQzs7QURFRTs7O0VBR0UsbUJBQW1CO0FDQ3ZCOztBRENFO0VBQ0EsU0FBUztFQUNULGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLGVBQWU7RUFDZixnQkFBZ0I7QUNFbEI7O0FEQ0U7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLCtIQUErSDtFQUMvSCxrQ0FBa0M7RUFDbEMsc0JBQXNCO0VBQ3RCLDRCQUE0QjtBQ0VoQzs7QURBQztFQUNDLGtCQUFrQjtFQUNsQixXQUFXO0VBQ1gsUUFBUTtFQUNSLFNBQVM7RUFDVCxnQ0FBK0I7QUNHakMiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+.page-title {
+  color: #afa6a6;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  text-shadow: 2px 4px 10px black;
+}
+
+.page-title::after {
+  position: absolute;
+  content: '';
+  bottom: 70px;
+  left: 50%;
+  width: 700px;
+  height: 5px;
+  transform: translateX(-50%);
+}
+
+.page-subtitle {
+  color: #fff;
+  font-size: 25px;
+  margin: 48 0 0 0;
+  text-shadow: 2px 4px 10px black;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQztFQUNHLHNCQUFzQjtFQUN0Qiw2QkFBNkI7QUNBakM7O0FER0U7OztFQUdFLG1CQUFtQjtBQ0F2Qjs7QURFRTtFQUNBLFNBQVM7RUFDVCxrQkFBa0I7RUFDbEIsaUJBQXdCO0VBQ3hCLGNBQWM7RUFDZCxlQUFlO0VBQ2YsZ0JBQWdCO0FDQ2xCOztBREVFO0VBQ0UsV0FBVztFQUNYLFVBQVU7QUNDZDs7QURDRTtFQUNFLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIsK0hBQStIO0VBQy9ILGtDQUFrQztFQUNsQyxzQkFBc0I7RUFDdEIsNEJBQTRCO0FDRWhDOztBREFDO0VBQ0Msb0JBQW9CO0VBQ3BCLFdBQVc7RUFDWCxRQUFRO0VBQ1IsU0FBUztFQUNULGdDQUErQjtBQ0dqQzs7QUREQztFQUNDLGNBQWM7RUFDZCxlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLCtCQUErQjtBQ0lqQzs7QUREQTtFQUNFLGtCQUFrQjtFQUNsQixXQUFXO0VBQ1gsWUFBWTtFQUNaLFNBQVM7RUFDVCxZQUFZO0VBQ1osV0FBVztFQUNYLDJCQUEyQjtBQ0k3Qjs7QURGQTtFQUNFLFdBQVc7RUFDWCxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLCtCQUErQjtBQ0tqQyIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
